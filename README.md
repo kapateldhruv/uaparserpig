@@ -15,7 +15,7 @@ mvn package
 ## Usage
 
 ```
-REGISTER /home/dhruv/workspace/uaparserpig/target/uaparserpig-0.0.1-SNAPSHOT.jar;
+REGISTER uaparserpig-0.0.1-SNAPSHOT.jar;
 DEFINE useragentparser kapatel.dhruv.uaparserpig.PiguaparserUDF();
 
 A = LOAD 'uaseragents.txt' AS (agent:chararray);
